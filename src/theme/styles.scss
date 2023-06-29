@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+
+// Configuration
+@import "normalize";
+@import "variables";
+
+// Functions
+@import "functions";
+@import "mixins/index";
+
+@import "vendor/rfs";
+
+// Layout & components
+@import "containers";
+@import "grid";
+@import "images";
+
+body {
+  background: #151418;
+  color: #f6f6f6;
+  font-family: $font-family-exo;
+  font-family: $font-family-open-sans;
+  font-family: $font-family-poppins;
+}

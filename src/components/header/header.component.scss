@@ -1,0 +1,48 @@
+@import "src/theme/variables";
+
+$header-padding: 1rem;
+
+.duKIfu {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+  width: 100%;
+  padding: $header-padding 0;
+  transition: background 0.45s ease 0s;
+
+  &.hJkleF {
+    background: rgba(0, 0, 0, 0.725);
+    backdrop-filter: blur(4px);
+  }
+
+  .nKdmeI {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    .fiMDih {
+      img {
+        width: 50%;
+      }
+    }
+
+    .kSbWWh {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+
+      .gzploa {
+        position: relative;
+        padding: 0px;
+        color: $gray-100;
+
+        .jICtTs {
+          font-size: 1.875rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+@import '../../theme/variables';
+
+.xjcxol {
+  margin: 5rem 0 2rem 0;
+  padding: 5rem 0 1rem 0;
+
+  .kQhEms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+
+    .XUsWAy {
+      flex-shrink: 1;
+
+      h1 {
+        font-weight: 300;
+        font-size: $h1-font-size;
+      }
+    }
+
+    .kjupOM {
+      flex-shrink: 1;
+    }
+  }
+
+}
