@@ -1,0 +1,11 @@
+@import "../../theme/variables";
+
+.SDYZBP {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  a {
+    color: $gray-500;
+  }
+}

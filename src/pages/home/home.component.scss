@@ -1,5 +1,11 @@
 @import '../../theme/variables';
 
+@keyframes dWdPsP {
+  50% {
+    transform: translateY(0.5rem);
+  }
+}
+
 .xjcxol {
   margin: 5rem 0 2rem 0;
   padding: 5rem 0 1rem 0;
@@ -8,22 +14,65 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
 
     .XUsWAy {
       flex-shrink: 1;
+      flex-basis: 50%;
 
       h1 {
         font-weight: 300;
         font-size: $h1-font-size;
+        margin-bottom: 0;
+      }
+
+      h2 {
+        margin-top: 0;
+        color: $gray-600;
+      }
+
+      .ogBNw {
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        height: 4rem;
+        color: rgb(246, 246, 246);
+        animation: 2.35s linear 0s infinite normal none running dWdPsP;
+        user-select: none;
+        margin: 7rem 0 0;
+        max-width: 300px;
+        min-width: 300px;
+        -webkit-box-pack: start;
+        justify-content: flex-start;
+
+        .epirqM {
+          height: 86%;
+        }
+
+        .fuQkkO {
+          white-space: nowrap;
+          line-height: 1;
+          font-size: 1.25rem;
+          margin: 0 0.5rem 0 1rem;
+        }
       }
     }
 
     .kjupOM {
       flex-shrink: 1;
+      flex-basis: 40%;
+      position: relative;
+
+      img {
+        width: 70%;
+      }
     }
   }
+}
 
+.mXGJwX {
+  margin: 5rem 0 2rem 0;
+  padding: 5rem 0 1rem 0;
 }
