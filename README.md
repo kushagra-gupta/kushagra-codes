@@ -1,7 +1,7 @@
 # kushagra-codes
 👋 Welcome to my GitHub profile!
 
-I'm a passionate web developer dedicated to crafting beautiful and efficient web solutions. This repository is my codebase, where I showcase my expertise and share my projects with the world.
+I am a passionate web developer dedicated to crafting beautiful and efficient web solutions. This repository is my codebase, where I showcase my expertise and share my projects with the world.
 
 Here you'll find a collection of my latest web development projects, including websites, web applications, and interactive experiences. I leverage cutting-edge technologies like HTML5, CSS3, JavaScript, and frameworks like React, Angular, and Vue.js to create responsive, user-friendly, and visually stunning web experiences.
 
